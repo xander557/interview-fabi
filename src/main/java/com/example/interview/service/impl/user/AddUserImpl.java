@@ -25,7 +25,7 @@ public class AddUserImpl implements AddUserService {
             return map;
         }
         if (password == null) {
-            map.put("error_message", "password cannot be emtpy");
+            map.put("error_message", "password cannot be empty");
             return map;
         }
 
